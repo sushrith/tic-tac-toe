@@ -32,7 +32,7 @@ if(e.target.dataset.index){
 reset.addEventListener('click',(e)=>{
     const cells = document.querySelectorAll('.cell');
     cells.forEach((e)=>{
-        if(e.classList.contains('withX')){
+        if(e.classList.contains('cell-withX')){
             e.classList.remove("cell-withX");
         }else{
             e.classList.remove("cell-withO");
